@@ -1,0 +1,12 @@
+
+/*CSS*/
+
+/*유효한 값일 때는 초록색*/
+.input-group .ng-valid.ng-dirty{
+  border: solid 1px green;
+}
+
+/*유효하지 않은 값일 때는 초록색*/
+.input-group .ng-invalid.ng-dirty{
+  border: solid 1px red;
+}
